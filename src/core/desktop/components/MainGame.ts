@@ -324,6 +324,7 @@ export default class MainGame {
     private setTrueButtonsAfterSpin(){
         if(!this.autoplay){
             this.setButtonsBoolean(true)
+            this.freespinboard.interactive = true
         }
     }
 
