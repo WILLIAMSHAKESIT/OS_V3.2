@@ -326,6 +326,10 @@ export default class MainGame {
             this.setButtonsBoolean(true)
             this.freespinboard.interactive = true
         }
+        if(this.autoplay){
+            this.setButtonsBoolean(false)
+            this.freespinboard.interactive = false
+        }
     }
 
     private createSlot(){
