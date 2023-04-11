@@ -316,8 +316,8 @@ export default class MainGame {
             this.controller.info_button.buttonMode = bool;
             this.controller.menu_button.interactive = bool;
             this.controller.menu_button.buttonMode = bool;
-            this.freespinboard.interactive = bool;
-            this.freespinboard.buttonMode = bool;
+            // this.freespinboard.interactive = bool;
+            // this.freespinboard.buttonMode = bool;
         }
     }
 
@@ -504,6 +504,7 @@ export default class MainGame {
             //     element.interactive = true;
             //     element.buttonMode = true;
             // });
+            this.freespinboard.interactive = false;
             this.openmodal = false;
             this.isfreespin = true;
             this.app.stage.removeChild(this.freespincontainer);
