@@ -1,0 +1,335 @@
+{
+	"frames": {
+		"congratulation_00000.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00001.png": {
+			"frame": {
+				"x": 603,
+				"y": 1,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00002.png": {
+			"frame": {
+				"x": 1205,
+				"y": 1,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00003.png": {
+			"frame": {
+				"x": 1,
+				"y": 551,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00004.png": {
+			"frame": {
+				"x": 603,
+				"y": 551,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00005.png": {
+			"frame": {
+				"x": 1205,
+				"y": 551,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00006.png": {
+			"frame": {
+				"x": 1,
+				"y": 1101,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00007.png": {
+			"frame": {
+				"x": 603,
+				"y": 1101,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00008.png": {
+			"frame": {
+				"x": 1205,
+				"y": 1101,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00009.png": {
+			"frame": {
+				"x": 1,
+				"y": 1651,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00010.png": {
+			"frame": {
+				"x": 603,
+				"y": 1651,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00011.png": {
+			"frame": {
+				"x": 1205,
+				"y": 1651,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00012.png": {
+			"frame": {
+				"x": 1807,
+				"y": 1,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00013.png": {
+			"frame": {
+				"x": 1807,
+				"y": 551,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00014.png": {
+			"frame": {
+				"x": 1807,
+				"y": 1101,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		},
+		"congratulation_00015.png": {
+			"frame": {
+				"x": 1807,
+				"y": 1651,
+				"w": 600,
+				"h": 548
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 600,
+				"h": 548
+			},
+			"sourceSize": {
+				"w": 600,
+				"h": 548
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "won_spin.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 2408,
+			"h": 2200
+		},
+		"scale": "1"
+	}
+}

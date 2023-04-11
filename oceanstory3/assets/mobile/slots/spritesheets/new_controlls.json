@@ -1,0 +1,215 @@
+{
+	"frames": {
+		"autobtn_portrait.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 236,
+				"h": 236
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 236,
+				"h": 236
+			},
+			"sourceSize": {
+				"w": 236,
+				"h": 236
+			}
+		},
+		"autoplay_btn.png": {
+			"frame": {
+				"x": 239,
+				"y": 1,
+				"w": 169,
+				"h": 169
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 169,
+				"h": 169
+			},
+			"sourceSize": {
+				"w": 169,
+				"h": 169
+			}
+		},
+		"info_btn.png": {
+			"frame": {
+				"x": 410,
+				"y": 1,
+				"w": 119,
+				"h": 130
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 119,
+				"h": 130
+			},
+			"sourceSize": {
+				"w": 119,
+				"h": 130
+			}
+		},
+		"infobtn_portait.png": {
+			"frame": {
+				"x": 531,
+				"y": 1,
+				"w": 198,
+				"h": 215
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 198,
+				"h": 215
+			},
+			"sourceSize": {
+				"w": 198,
+				"h": 215
+			}
+		},
+		"ls_controllers_container.png": {
+			"frame": {
+				"x": 1,
+				"y": 239,
+				"w": 1918,
+				"h": 175
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1918,
+				"h": 175
+			},
+			"sourceSize": {
+				"w": 1918,
+				"h": 175
+			}
+		},
+		"menu_btn.png": {
+			"frame": {
+				"x": 731,
+				"y": 1,
+				"w": 231,
+				"h": 110
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 231,
+				"h": 110
+			},
+			"sourceSize": {
+				"w": 231,
+				"h": 110
+			}
+		},
+		"menubtn_portrait.png": {
+			"frame": {
+				"x": 964,
+				"y": 1,
+				"w": 236,
+				"h": 236
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 236,
+				"h": 236
+			},
+			"sourceSize": {
+				"w": 236,
+				"h": 236
+			}
+		},
+		"play_btn.png": {
+			"frame": {
+				"x": 1,
+				"y": 416,
+				"w": 253,
+				"h": 253
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 253,
+				"h": 253
+			},
+			"sourceSize": {
+				"w": 253,
+				"h": 253
+			}
+		},
+		"playbtn_portrait.png": {
+			"frame": {
+				"x": 256,
+				"y": 416,
+				"w": 406,
+				"h": 405
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 406,
+				"h": 405
+			},
+			"sourceSize": {
+				"w": 406,
+				"h": 405
+			}
+		},
+		"pt_controllers_container.png": {
+			"frame": {
+				"x": 1921,
+				"y": 1,
+				"w": 1600,
+				"h": 825
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 1600,
+				"h": 825
+			},
+			"sourceSize": {
+				"w": 1600,
+				"h": 825
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "new_controlls.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 3522,
+			"h": 827
+		},
+		"scale": "1"
+	}
+}

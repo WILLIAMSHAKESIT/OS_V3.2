@@ -74,12 +74,6 @@ export default class ModalMenu {
         this.createOverlay();
         this.createParent();
         this.createContent();
-        //positioning
-        //parent modal
-        this.modal_container.position.x = (this.container.width - this.modal_container.width) / 2;
-        this.modal_container.position.y = 100;
-        //main container
-        this.container.position.x = (this.app.screen.width - this.container.width) / 2;
 
         if(this.isMute){
             this.ambientbtn.texture = this.ambienttoggleon.texture;

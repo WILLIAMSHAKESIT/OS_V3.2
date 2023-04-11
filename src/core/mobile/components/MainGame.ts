@@ -258,6 +258,7 @@ export default class MainGame {
                 this.modalContainerSprite = Functions.loadSprite(this.app.loader, 'my_slot_controllers', 'modal_container.png', false);
                 //modal menu
                 this.controller.modalmenu.modal_container.texture = this.modalContainerSprite.texture
+                this.controller.modalmenu.container.scale.set(1)
                 this.controller.modalmenu.modal_close.scale.set(1)
                 this.controller.modalmenu.title.y = this.controller.modalmenu.title.height/2
                 this.controller.modalmenu.title.x = (this.controller.modalmenu.modal_container.width - this.controller.modalmenu.title.width) / 2;
@@ -270,6 +271,7 @@ export default class MainGame {
                 this.controller.modalmenu.middlecontainer.visible = true
                 //modal info
                 this.controller.modalinfo.modal_container.texture = this.modalContainerSprite.texture
+                this.controller.modalinfo.container.scale.set(1)
                 this.controller.modalinfo.modal_close.scale.set(1) 
                 this.controller.modalinfo.firstItemContainer.visible = true
                 this.controller.modalinfo.firstItemContainer2.visible =  false
@@ -281,6 +283,7 @@ export default class MainGame {
                 this.controller.modalinfo.slideBtnsContainer.y = (this.controller.modalinfo.modal_container.height - this.controller.modalinfo.slideBtnsContainer.height)/25
                 //modal autoplay
                 this.controller.modalautoplay.modal_container.texture = this.modalContainerSprite.texture
+                this.controller.modalautoplay.container.scale.set(1)
                 this.controller.modalautoplay.numberscointainer.visible = true
                 this.controller.modalautoplay.numberscointainer2.visible = false
                 this.controller.modalautoplay.modal_close.scale.set(1)
@@ -360,6 +363,7 @@ export default class MainGame {
                 this.modalContainerSprite = Functions.loadSprite(this.app.loader, 'my_slot_controllers', 'modal_container2.png', false);
                 //modal menu
                 this.controller.modalmenu.modal_container.texture = this.modalContainerSprite.texture
+                this.controller.modalmenu.container.scale.set(0.9)
                 this.controller.modalmenu.modal_close.scale.set(2.5)
                 this.controller.modalmenu.title.y = (this.controller.modalmenu.title.height / 2) + 60;
                 this.controller.modalmenu.title.x = (this.controller.modalmenu.modal_container.width - this.controller.modalmenu.title.width) / 2;
@@ -372,6 +376,7 @@ export default class MainGame {
                 this.controller.modalmenu.middlecontainer.visible = false
                 //modal info
                 this.controller.modalinfo.modal_container.texture = this.modalContainerSprite.texture
+                this.controller.modalinfo.container.scale.set(0.9)
                 this.controller.modalinfo.modal_close.scale.set(2.5)
                 this.controller.modalinfo.firstItemContainer.visible = false
                 this.controller.modalinfo.firstItemContainer2.visible =  true
@@ -389,6 +394,7 @@ export default class MainGame {
                 this.controller.modalinfo.slideBtnsContainer.y = ((this.controller.modalinfo.modal_container.height - this.controller.modalinfo.slideBtnsContainer.height)/2)*1.5
                 //modal autoplay
                 this.controller.modalautoplay.modal_container.texture = this.modalContainerSprite.texture
+                this.controller.modalautoplay.container.scale.set(0.9)
                 this.controller.modalautoplay.numberscointainer.visible = false
                 this.controller.modalautoplay.numberscointainer2.visible = true
                 this.controller.modalautoplay.modal_close.scale.set(2.5)
@@ -431,17 +437,13 @@ export default class MainGame {
             this.controller.modalmenu.overlay.width = this.screenSettings.baseWidth;
             this.controller.modalmenu.container.x = (this.screenSettings.baseWidth - this.controller.modalmenu.container.width) / 2;
             this.controller.modalmenu.container.y = (this.screenSettings.baseHeight - this.controller.modalmenu.container.height) / 2;
-            this.controller.modalmenu.modal_container.x = (this.controller.modalmenu.container.width - this.controller.modalmenu.modal_container.width) / 2;
-            this.controller.modalmenu.modal_container.y = (this.controller.modalmenu.container.height - this.controller.modalmenu.modal_container.height) / 2;
             this.controller.modalmenu.modal_close.position.x = (this.controller.modalmenu.modal_container.width - this.controller.modalmenu.modal_close.width) - 5;
             this.controller.modalmenu.modal_close.position.y = 3;
             //modal info
             this.controller.modalinfo.overlay.height = this.screenSettings.baseHeight;
             this.controller.modalinfo.overlay.width = this.screenSettings.baseWidth;
             this.controller.modalinfo.container.x = (this.screenSettings.baseWidth - this.controller.modalinfo.container.width) / 2;
-            this.controller.modalinfo.container.y = (this.screenSettings.baseHeight - this.controller.modalinfo.container.height) / 2;
-            this.controller.modalinfo.modal_container.x = (this.controller.modalinfo.container.width - this.controller.modalinfo.modal_container.width) / 2;
-            this.controller.modalinfo.modal_container.y = (this.controller.modalinfo.container.height - this.controller.modalinfo.modal_container.height) / 2;
+            this.controller.modalinfo.container.y = ((this.screenSettings.baseHeight - this.controller.modalinfo.container.height) / 2);
             this.controller.modalinfo.modal_close.position.x = (this.controller.modalinfo.modal_container.width - this.controller.modalinfo.modal_close.width) - 5;
             this.controller.modalinfo.modal_close.position.y = 3;
             this.controller.modalinfo.next_btn.x = (this.controller.modalinfo.modal_container.width - this.controller.modalinfo.next_btn.width) - 70
@@ -454,8 +456,6 @@ export default class MainGame {
             this.controller.modalautoplay.overlay.width = this.screenSettings.baseWidth;
             this.controller.modalautoplay.container.x = (this.screenSettings.baseWidth - this.controller.modalautoplay.container.width) / 2;
             this.controller.modalautoplay.container.y = (this.screenSettings.baseHeight - this.controller.modalautoplay.container.height) / 2;
-            this.controller.modalautoplay.modal_container.x = (this.controller.modalautoplay.container.width - this.controller.modalautoplay.modal_container.width) / 2;
-            this.controller.modalautoplay.modal_container.y = (this.controller.modalautoplay.container.height - this.controller.modalautoplay.modal_container.height) / 2;
             this.controller.modalautoplay.modal_close.position.x = (this.controller.modalautoplay.modal_container.width - this.controller.modalautoplay.modal_close.width) - 5;
             this.controller.modalautoplay.modal_close.position.y = 3;
             //nice one
