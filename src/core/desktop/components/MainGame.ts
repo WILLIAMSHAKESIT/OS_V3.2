@@ -696,6 +696,7 @@ export default class MainGame {
                     else{
                         if(this.controller.bet <= this.controller.balance){
                             this.setButtonsBoolean(false);
+                            this.freespinboard.interactive = false;
                             if(!this.slotgame.startreel){
                                 this.autostop = true;
                             }
@@ -1437,6 +1438,7 @@ export default class MainGame {
         this.controller.playtext.style.fill = '#FFFFFF';
         this.controller.singleplay_button.texture = this.playbtn.texture;
         this.setButtonsBoolean(true);
+        this.freespinboard.interactive = true;
         this.updateTopPayline('TAP SPACE TO SKIP ANIMATIONS');
     }
 
