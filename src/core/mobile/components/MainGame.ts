@@ -435,29 +435,29 @@ export default class MainGame {
             //modal menu
             this.controller.modalmenu.overlay.height = this.screenSettings.baseHeight;
             this.controller.modalmenu.overlay.width = this.screenSettings.baseWidth;
-            this.controller.modalmenu.container.x = (this.screenSettings.baseWidth - this.controller.modalmenu.container.width) / 2;
-            this.controller.modalmenu.container.y = (this.screenSettings.baseHeight - this.controller.modalmenu.container.height) / 2;
             this.controller.modalmenu.modal_close.position.x = (this.controller.modalmenu.modal_container.width - this.controller.modalmenu.modal_close.width) - 5;
             this.controller.modalmenu.modal_close.position.y = 3;
+            this.controller.modalmenu.container.x = (this.screenSettings.baseWidth - this.controller.modalmenu.container.width) / 2;
+            this.controller.modalmenu.container.y = (this.screenSettings.baseHeight - this.controller.modalmenu.container.height) / 2;
             //modal info
             this.controller.modalinfo.overlay.height = this.screenSettings.baseHeight;
             this.controller.modalinfo.overlay.width = this.screenSettings.baseWidth;
-            this.controller.modalinfo.container.x = (this.screenSettings.baseWidth - this.controller.modalinfo.container.width) / 2;
-            this.controller.modalinfo.container.y = ((this.screenSettings.baseHeight - this.controller.modalinfo.container.height) / 2);
             this.controller.modalinfo.modal_close.position.x = (this.controller.modalinfo.modal_container.width - this.controller.modalinfo.modal_close.width) - 5;
             this.controller.modalinfo.modal_close.position.y = 3;
             this.controller.modalinfo.next_btn.x = (this.controller.modalinfo.modal_container.width - this.controller.modalinfo.next_btn.width) - 70
             this.controller.modalinfo.secondItemContainer.x = (this.controller.modalinfo.modal_container.width - this.controller.modalinfo.secondItemContainer.width) / 2;
             this.controller.modalinfo.secondItemContainer2.x = (this.controller.modalinfo.modal_container.width - this.controller.modalinfo.secondItemContainer2.width) / 2;
             this.controller.modalinfo.secondItemContainer2.y = 50
+            this.controller.modalinfo.container.x = (this.screenSettings.baseWidth - this.controller.modalinfo.container.width) / 2;
+            this.controller.modalinfo.container.y = ((this.screenSettings.baseHeight - this.controller.modalinfo.container.height) / 2);
             //modal autoplay
             this.controller.modalautoplay.numberscointainer2.scale.set(1.5)
             this.controller.modalautoplay.overlay.height = this.screenSettings.baseHeight;
             this.controller.modalautoplay.overlay.width = this.screenSettings.baseWidth;
-            this.controller.modalautoplay.container.x = (this.screenSettings.baseWidth - this.controller.modalautoplay.container.width) / 2;
-            this.controller.modalautoplay.container.y = (this.screenSettings.baseHeight - this.controller.modalautoplay.container.height) / 2;
             this.controller.modalautoplay.modal_close.position.x = (this.controller.modalautoplay.modal_container.width - this.controller.modalautoplay.modal_close.width) - 5;
             this.controller.modalautoplay.modal_close.position.y = 3;
+            this.controller.modalautoplay.container.x = (this.screenSettings.baseWidth - this.controller.modalautoplay.container.width) / 2;
+            this.controller.modalautoplay.container.y = (this.screenSettings.baseHeight - this.controller.modalautoplay.container.height) / 2;
             //nice one
             if(this.niceonepopup != undefined && this.niceonepopup.isresponsive){
                 this.niceonepopup.overlay.clear();
