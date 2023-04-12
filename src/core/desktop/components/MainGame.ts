@@ -1575,7 +1575,7 @@ export default class MainGame {
 
             if(this.isfreespinslot){
                 if(!this.openmodalfreespin){
-                 //   console.log(this.bonusoffer)
+                    //console.log(this.bonusoffer)
                     this.playFreeSlotAuto();
                     this.controller.sound_button.interactive=true
                     this.controller.sound_button.buttonMode=true
