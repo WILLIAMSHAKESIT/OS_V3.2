@@ -316,8 +316,8 @@ export default class MainGame {
             this.controller.info_button.buttonMode = bool;
             this.controller.menu_button.interactive = bool;
             this.controller.menu_button.buttonMode = bool;
-            // this.freespinboard.interactive = bool;
-            // this.freespinboard.buttonMode = bool;
+            this.freespinboard.interactive = bool;
+            this.freespinboard.buttonMode = bool;
         }
     }
 
@@ -326,10 +326,7 @@ export default class MainGame {
             this.setButtonsBoolean(true)
             this.freespinboard.interactive = true
         }
-        if(this.autoplay){
-            this.setButtonsBoolean(false)
-            this.freespinboard.interactive = false
-        }
+
     }
 
     private createSlot(){
@@ -1537,6 +1534,9 @@ export default class MainGame {
     }
 
     private allAnimations(){
+        if(this.autoplay){
+            this.setButtonsBoolean(false)
+        }
         if(!this.switchtheme){
             //single play auto stop
             if(this.autostop){
