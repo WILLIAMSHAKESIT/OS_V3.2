@@ -1968,6 +1968,8 @@ export default class MainGame {
             if(this.isfreespinslot){
                 if(!this.openmodalfreespin){
                     this.playFreeSlotAuto();
+                    this.controller.sound_button.interactive=true
+                    this.controller.sound_button.buttonMode=true
                 }
             }
         }

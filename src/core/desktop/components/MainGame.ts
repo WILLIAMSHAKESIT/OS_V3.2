@@ -1537,6 +1537,7 @@ export default class MainGame {
         if(this.autoplay){
             this.setButtonsBoolean(false)
         }
+
         if(!this.switchtheme){
             //single play auto stop
             if(this.autostop){
@@ -1576,6 +1577,8 @@ export default class MainGame {
                 if(!this.openmodalfreespin){
                  //   console.log(this.bonusoffer)
                     this.playFreeSlotAuto();
+                    this.controller.sound_button.interactive=true
+                    this.controller.sound_button.buttonMode=true
                 }
             }
         }
