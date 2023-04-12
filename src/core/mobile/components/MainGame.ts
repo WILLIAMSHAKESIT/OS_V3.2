@@ -1926,6 +1926,9 @@ export default class MainGame {
     }
 
     private allAnimations(){
+        if(this.autoplay){
+            this.setButtonsBoolean(false)
+        }
         if(!this.switchtheme){
             //single play auto stop
             if(this.autostop){
