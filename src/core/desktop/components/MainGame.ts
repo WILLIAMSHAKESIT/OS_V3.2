@@ -1437,7 +1437,7 @@ export default class MainGame {
     private stopAutoPlay(){
         this.playcount = 0;
         this.autoplay = false;
-        this.controller.playtext.style.fill = '#FFFFFF';
+        //this.controller.playtext.style.fill = '#FFFFFF';
         this.controller.singleplay_button.texture = this.playbtn.texture;
         this.setButtonsBoolean(true);
         this.freespinboard.interactive = true;
